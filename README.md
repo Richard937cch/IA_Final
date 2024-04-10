@@ -3,8 +3,8 @@ Map Generator:
 
 
 
-Main agent: Adventurer(yellow)
+Main agent - Adventurer(yellow):
 
 
 
-Enemy agent: Forest Spirit(red)
+Enemy agent - Forest Spirit(red):
