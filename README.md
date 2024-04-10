@@ -1,5 +1,5 @@
 ## ECS7016P - Final Unity Project: Haunted Forest
-Map Generator:<br>
+#Map Generator:<br>
   Grid map with two types of tiles: dirt(brown) and tree(green).<br>
   Start with a 2D grid map and assigned values randomly: 0(dirt) or 1(tree).<br>
   Apply cellular automata to smooth the map.<br>
