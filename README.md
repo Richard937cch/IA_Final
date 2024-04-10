@@ -9,6 +9,15 @@
 ## Main agent - Adventurer(yellow):<br>
 。Script is based on NPBehave and the "Enemybehaviour.cs" proved in the NPBehave asset.<br>
 。An Adventurer is spawned randomly on the dirt grid of the map.<br>
+。Initially, a random position is given as initial goal, and Adventurer will go toward it.<br>
+。Adventurer will keep checking if enemies is nearby().<br>
+。<br>
+。<br>
+。<br>
+。<br>
+。<br>
+。<br>
+。<br>
 ## Enemy agent - Forest Spirit(red):<br>
 。Script is based on NPBehave and the "Enemybehaviour.cs" proved in the NPBehave asset.<br>
 。Enemies are spawned randomly on the dirt grids of the map.<br>
