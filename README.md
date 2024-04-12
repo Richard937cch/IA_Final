@@ -9,7 +9,7 @@
 。Instantiate actual prefab to generate actual map.<br>
 ## Main agent - Adventurer(yellow):<br>
 。Script is based on NPBehave and the "Enemybehaviour.cs" proved in the NPBehave asset.<br>
-。An Adventurer is spawned randomly on the dirt grid of the map.<br>
+。An Adventurer is spawned randomly on the dirt or river grid of the map.<br>
 。Initially, a random position is given as initial target position, and Adventurer will go toward it.<br>
 。If Adventurer reach target position, a new target position will be given.<br>
 。Adventurer will keep checking if enemies is nearby(7.5f).<br>
@@ -22,7 +22,7 @@
 。Adventurer wll slow down when it is in river<br>
 ## Enemy agent - Forest Spirit(red):<br>
 。Script is based on NPBehave and the "Enemybehaviour.cs" proved in the NPBehave asset.<br>
-。Enemies are spawned randomly on the dirt grids of the map.<br>
+。Enemies are spawned randomly on the dirt or river grids of the map.<br>
 。IF Adventurer is nearby(7.5f) but not attacking, enemies become red and chase the Adventurer.<br>
 。IF Adventurer is nearby(7.5f) and attacking, enemies stay red but run away from the Adventurer.<br>
 。IF Adventurer is NOT nearby, enemies stay stationary and become invisible.<br>
