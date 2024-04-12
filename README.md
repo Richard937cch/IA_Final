@@ -18,6 +18,7 @@
 。[Stuck] If Adventurer is stuck in a position for a while, it will do multiple raycast 360 degree around itself and find the furthest tree as new target to move forward.<br>
 。[KeepStuck] If Adventure is stuck in a position for multiple times, it will set another random position as new target to move forward.<br>
 。Both Stuck and KeepStuck will trigger [attack] action, the shape of Adventurer will change and kill any enemy that contact it.<br>
+。There is a cool down time for attack, After an attack, Adventurer has to wait a while before it can do another attack.<br>
 。If Enemy isn't nearby, it will continue move forward to the target position, it will check if it Stuck and KeepStuck as well.<br>
 。Adventurer wll slow down when it is in river<br>
 ## Enemy agent - Forest Spirit(red):<br>
